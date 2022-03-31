@@ -117,19 +117,3 @@ LPDIRECT3DTEXTURE9
 
 	STATEMANAGER.RestoreSamplerState(0, D3DSAMP_MINFILTER);
 	STATEMANAGER.RestoreSamplerState(0, D3DSAMP_MAGFILTER);
-
-//arat
-
-rkSttMgr.DrawIndexedPrimitive(D3DPT_TRIANGLELIST, byTerrainNum * 4, 4, byTerrainNum * 6, 2);
-
-//değiştir
-
-rkSttMgr.DrawIndexedPrimitive(D3DPT_TRIANGLELIST, 0, 4, byTerrainNum * 6, 2);
-
-//arat
-
-STATEMANAGER.DrawIndexedPrimitive(D3DPT_TRIANGLELIST, byTerrainNum * 4, 4, byTerrainNum * 6, 2);
-
-//değiştir
-
-STATEMANAGER.DrawIndexedPrimitive(D3DPT_TRIANGLELIST, 0, 4, byTerrainNum * 6, 2);
