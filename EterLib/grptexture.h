@@ -1,0 +1,7 @@
+//arat (2 kez)
+
+LPDIRECT3DTEXTURE8
+
+//değiştir (2 kez)
+
+LPDIRECT3DTEXTURE9

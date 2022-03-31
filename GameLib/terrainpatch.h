@@ -1,0 +1,8 @@
+//arat (2 kez)
+
+D3DLIGHT8
+D3DMATERIAL8
+//değiştir (2 kez)
+
+D3DLIGHT9
+D3DMATERIAL9

@@ -1,0 +1,17 @@
+//arat
+
+STATEMANAGER.SetVertexShader(D3DFVF_XYZ|D3DFVF_TEX1);
+
+//değiştir
+
+STATEMANAGER.SetFVF(D3DFVF_XYZ|D3DFVF_TEX1);
+
+//arat
+
+	STATEMANAGER.RestoreTextureStageState(0, D3DTSS_MINFILTER);
+	STATEMANAGER.RestoreTextureStageState(0, D3DTSS_MAGFILTER);
+
+//değiştir
+
+	STATEMANAGER.RestoreSamplerState(0, D3DSAMP_MINFILTER);
+	STATEMANAGER.RestoreSamplerState(0, D3DSAMP_MAGFILTER);

@@ -1,0 +1,7 @@
+//arat (2 kez)
+
+LPDIRECT3DVERTEXBUFFER8
+
+//değiştir (2 kez)
+
+LPDIRECT3DVERTEXBUFFER9

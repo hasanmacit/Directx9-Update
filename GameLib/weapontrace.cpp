@@ -1,0 +1,23 @@
+//arat
+
+LPDIRECT3DTEXTURE8
+
+//değiştir
+
+LPDIRECT3DTEXTURE9
+
+//arat
+
+STATEMANAGER.SaveVertexShader(D3DFVF_XYZ | D3DFVF_DIFFUSE | D3DFVF_TEX1);
+
+//değiştir
+
+STATEMANAGER.SaveFVF(D3DFVF_XYZ | D3DFVF_DIFFUSE | D3DFVF_TEX1);
+
+//arat
+
+STATEMANAGER.RestoreVertexShader();
+
+//değiştir
+
+STATEMANAGER.RestoreFVF();
