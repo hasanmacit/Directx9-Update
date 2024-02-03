@@ -8,3 +8,5 @@ The files have been prepared one by one with explanations. You can add the Speed
 ![Adsiz](https://user-images.githubusercontent.com/79380739/161134259-a3232162-e220-4d6b-8b88-872614c5504f.png)
 
 (sol taraf dx9 sağ taraf dx8. %12 dx9, %44 dx8 clientinin değeridir.)
+
+(left side dx9, right side dx8. 12% dx9 is the value of the 44% dx8 client.)
